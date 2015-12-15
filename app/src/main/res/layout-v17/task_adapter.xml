@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/rowCountTextView"
+        android:layout_alignTop="@+id/taskViewText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"
+        android:textIsSelectable="false"
+        android:layout_alignBottom="@+id/taskViewText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/taskViewText"
+        android:onClick="changeTaskStatus"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/statusViewText"
+        android:layout_alignBottom="@+id/statusViewText"
+        android:layout_toLeftOf="@+id/statusViewText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:drawable/ic_menu_delete"
+        android:onClick="deleteTask"
+        android:layout_margin="5dp"
+        android:contentDescription="@string/deleteTask" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/statusViewText"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView"
+        android:onClick="changeTaskStatus"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:singleLine="true"
+        android:paddingTop="10dp" />
+
+</RelativeLayout>

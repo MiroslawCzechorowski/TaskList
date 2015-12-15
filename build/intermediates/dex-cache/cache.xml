@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/Users/Miro/Dropbox/TaskList/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/Users/Miro/Dropbox/TaskList/app/build/intermediates/pre-dexed/debug/classes-42d822fdf693a685d6c5262484ee83caa574b8c6.jar" />
-    </item>
-    <item
         jar="/Users/Miro/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/Users/Miro/Dropbox/TaskList/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-8cbd6290c00400f03873a2e69c9460fdecd8d75c.jar" />
+        <dex dex="/Users/Miro/Dropbox/AndroidAppDevelopment/TaskList/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-8cbd6290c00400f03873a2e69c9460fdecd8d75c.jar" />
     </item>
     <item
-        jar="/Users/Miro/Dropbox/TaskList/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jar="/Users/Miro/Dropbox/AndroidAppDevelopment/TaskList/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/Users/Miro/Dropbox/TaskList/app/build/intermediates/pre-dexed/debug/classes-8ee435d0f89c732cd23eeae69e773c3585b4ec33.jar" />
+        <dex dex="/Users/Miro/Dropbox/AndroidAppDevelopment/TaskList/app/build/intermediates/pre-dexed/debug/classes-de5a1716127de67ae1dbbefe09871825185017df.jar" />
     </item>
     <item
-        jar="/Users/Miro/Dropbox/TaskList/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jar="/Users/Miro/Dropbox/AndroidAppDevelopment/TaskList/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/Users/Miro/Dropbox/TaskList/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-8dbf94d8d274351f966117ceedc73c8643ac429c.jar" />
+        <dex dex="/Users/Miro/Dropbox/AndroidAppDevelopment/TaskList/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-53177d9724211249ea0799ad741a2400b63a3cf8.jar" />
+    </item>
+    <item
+        jar="/Users/Miro/Dropbox/AndroidAppDevelopment/TaskList/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/Miro/Dropbox/AndroidAppDevelopment/TaskList/app/build/intermediates/pre-dexed/debug/classes-5e479be7273575a1d091f52d6a1d6f40279ca26c.jar" />
     </item>
 
 </items>

@@ -13,6 +13,7 @@ public class CustomCursorAdapter extends SimpleCursorAdapter {
     public CustomCursorAdapter(Context context, int layout, Cursor c, String[] from, int[] to, int flags) {
         super(context, layout, c, from, to, flags);
     }
+    //Adapter view for task list
     @Override
     public void bindView(View view, Context context, Cursor cursor) {
         int pos=cursor.getPosition()+1;
@@ -20,6 +21,4 @@ public class CustomCursorAdapter extends SimpleCursorAdapter {
         rowCount.setText(pos+". ");
         super.bindView(view, context, cursor);
     }
-
-
 }
